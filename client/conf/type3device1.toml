@@ -1,0 +1,8 @@
+[client]
+id="QbdGyEZgTEC5Apn1INhEz7zOSiJonC2G"
+type=3
+power_factor=50
+
+[server]
+socket="localhost:59002"
+report_consumption=true

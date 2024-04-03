@@ -1,0 +1,7 @@
+port=59002
+
+[database]
+dsn="root:123456@tcp(1.n.rho.im:13406)/project20240227?charset=utf8mb4&parseTime=True&loc=Local"
+
+[session_manager]
+broadcast_timestamp_interval=1000  # 单位：毫秒。该值不能过小，否则会导致客户端消息泛滥。
